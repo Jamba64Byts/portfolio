@@ -40,8 +40,6 @@ $(function () {
         var num = $(this).scrollTop();
         if (num > 0) {
             $('.down').hide();
-        } else if (num <= 0) {
-            $('.down').show();
         }
 
     })

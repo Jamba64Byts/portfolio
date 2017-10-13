@@ -3,16 +3,16 @@
 }
 
 body{
-    background-color: #ecf0f1;
+    background-color: white;
 
 }
 
-div > #nav-top {
+div  #nav-top {
     background: linear-gradient(#9b59b6, #2c3e50) no-repeat;
     height: 40px
 }
 
-nav > .primary-list > li {
+nav  .primary-list  li {
     text-align: center;
     list-style: none;
     display: inline;
@@ -28,26 +28,26 @@ nav > .primary-list > li {
 }
 
 @media (min-width: 266px) and (max-width: 500px) {
-    nav > .primary-list {
+    nav  .primary-list {
         display: none;
     }
 
-    nav > .second-list > li {
+    nav  .second-list  li {
         display: inline;
         text-align: center;
         width: 100%;
     }
 
-    nav > .second-list {
+    nav  .second-list {
         display: inline;
     }
 
-    div > #nav-top {
+    div  #nav-top {
         height: 50px;
     }
 }
 
-.second-list > li > a > i {
+.second-list  li  a  i {
     color: white;
 
 }
@@ -74,20 +74,19 @@ nav > .primary-list > li {
 }
 
 /* footer */
-div > #footer {
+#footer {
     background: linear-gradient(#9b59b6, #2c3e50) no-repeat;
     height: 70px;
-    position: absolute;
-    bottom: 0;
+    margin-top: 200px;
 }
 
-div > #footer > footer > h2 {
+#footer  footer  h2 {
     color: white;
     text-align: center;
     margin-top: 10px;
 }
 
-div > #footer > footer > h2 > img {
+#footer  footer  h2  img {
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -96,38 +95,39 @@ div > #footer > footer > h2 > img {
 }
 
 @media (min-width: 266px) and (max-width: 800px) {
-    div > #footer > footer > h2 {
+    div  #footer  footer  h2 {
         font-family: "Times New Roman", sans-serif;
         font-size: 16px;
     }
 }
 
 .down{
-    background-color: #f4fbff;
-    border: 5px solid rgba(177, 177, 177, 0.51);
+    background-color: rgba(35, 35, 35, 0.47);
+    border: 5px solid rgba(177, 177, 177, 0.75);
     border-radius: 0;
     width: 180px;
     position: absolute;
     left: 0;
-    margin-top: 6px;
+    margin-top: 5px;
     display: none;
     transition: 1s;
+    z-index: 1;
 }
 
-.down > .tree-list {
+.down  .tree-list {
     list-style: none;
     padding: 0;
 
 
 }
 
-.down >.tree-list > li {
+.down .tree-list  li {
     display: block;
     text-align: center;
     margin-top: 10px;
 }
 
-.tree-list > li > .btn-tree {
+.tree-list  li  .btn-tree {
     width: 150px;
     outline: none;
     background: linear-gradient(#a661c7,#2c3e50);
@@ -135,20 +135,72 @@ div > #footer > footer > h2 > img {
 
 }
 
-.tree-list > li > .btn-tree:hover {
+.tree-list  li  .btn-tree:hover {
     width: 150px;
     outline: none;
     background: linear-gradient(#2c3e50,#a661c7);
 
 }
 
-.tree-list > li > .btn-tree:hover {
+.tree-list  li  .btn-tree:hover {
     outline: none;
 }
 
-.tree-list > li > .btn-tree:focus {
+.tree-list  li  .btn-tree:focus {
     box-shadow: 0 0 0 transparent;
     outline: none;
 
 }
+
+.title-capacitacao{
+    margin-top: 100px;
+}
+#content-1 > div > div {
+    height: 448px;
+    word-wrap: break-word;
+    overflow: hidden;
+
+
+}
+.certificate{
+  width: 200px;
+  height: 120px;
+  margin-top:  112px;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.certificate:hover{
+    width: 345px;
+    height: 250px;
+    margin-top:  62px;
+    margin-left: -8px;
+    border: inset 5px rgba(37, 97, 144, 0.41);
+}
+
+.title-curse{
+    position: inherit;
+    top: 60px;
+}
+
+
+@media (min-width: 266px) and (max-width: 500px){
+    .certificate:hover{
+        width: 260px;
+        height: 200px;
+        margin-top:  62px;
+        margin-left: -8px;
+        border: inset 5px rgba(37, 97, 144, 0.41);
+    }
+
+    #content-1 > div > div {
+        height: 300px;
+        word-wrap: break-word;
+        overflow: hidden;
+        background-color: #fcfcfc;
+
+    }
+}
+
+
 
