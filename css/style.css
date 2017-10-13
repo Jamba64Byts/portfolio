@@ -159,15 +159,27 @@ nav  .primary-list  li {
     height: 448px;
     word-wrap: break-word;
     overflow: hidden;
-
+    background: rgba(171, 171, 180, 0.14);
 
 }
+
+#content-1  div  div h4  a{
+    color: #b61000;
+
+}
+
+#content-1  div  div h4  a:hover{
+    color: #c0392b;
+
+}
+
 .certificate{
   width: 200px;
   height: 120px;
   margin-top:  112px;
   border-radius: 5px;
   transition: 1s;
+  opacity: 0.7;
 }
 
 .certificate:hover{
@@ -176,6 +188,7 @@ nav  .primary-list  li {
     margin-top:  62px;
     margin-left: -8px;
     border: inset 5px rgba(37, 97, 144, 0.41);
+    opacity: 1;
 }
 
 .title-curse{
@@ -183,7 +196,9 @@ nav  .primary-list  li {
     top: 60px;
 }
 
-
+.text-custom{
+    margin-top: 100px;
+}
 @media (min-width: 266px) and (max-width: 500px){
     .certificate:hover{
         width: 260px;
