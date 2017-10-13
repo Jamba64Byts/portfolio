@@ -1,8 +1,16 @@
-div > #nav-top {
-    background: linear-gradient(#9b59b6, #2c3e50) no-repeat;
-    height: 40px;
+* {
+    font-family: Arial, "Times New Roman", sans-serif;/* Pode ter perda de desempenho, pois site e pequeno e nao demos muita importancia*/
 }
 
+body{
+    background-color: #ecf0f1;
+
+}
+
+div > #nav-top {
+    background: linear-gradient(#9b59b6, #2c3e50) no-repeat;
+    height: 40px
+}
 
 nav > .primary-list > li {
     text-align: center;
@@ -12,10 +20,10 @@ nav > .primary-list > li {
 
 }
 
-.second-list{
+.second-list {
 
-     list-style: none;
-     display: none;
+    list-style: none;
+    display: none;
 
 }
 
@@ -24,13 +32,13 @@ nav > .primary-list > li {
         display: none;
     }
 
-    nav > .second-list > li{
+    nav > .second-list > li {
         display: inline;
         text-align: center;
         width: 100%;
     }
 
-    nav > .second-list{
+    nav > .second-list {
         display: inline;
     }
 
@@ -39,7 +47,7 @@ nav > .primary-list > li {
     }
 }
 
-.second-list > li > a >i{
+.second-list > li > a > i {
     color: white;
 
 }
@@ -73,7 +81,6 @@ div > #footer {
     bottom: 0;
 }
 
-
 div > #footer > footer > h2 {
     color: white;
     text-align: center;
@@ -90,7 +97,58 @@ div > #footer > footer > h2 > img {
 
 @media (min-width: 266px) and (max-width: 800px) {
     div > #footer > footer > h2 {
-        font-family: "Times New Roman",sans-serif;
+        font-family: "Times New Roman", sans-serif;
         font-size: 16px;
     }
 }
+
+.down{
+    background-color: #f4fbff;
+    border: 5px solid rgba(177, 177, 177, 0.51);
+    border-radius: 0;
+    width: 180px;
+    position: absolute;
+    left: 0;
+    margin-top: 6px;
+    display: none;
+    transition: 1s;
+}
+
+.down > .tree-list {
+    list-style: none;
+    padding: 0;
+
+
+}
+
+.down >.tree-list > li {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tree-list > li > .btn-tree {
+    width: 150px;
+    outline: none;
+    background: linear-gradient(#a661c7,#2c3e50);
+    border: 0;
+
+}
+
+.tree-list > li > .btn-tree:hover {
+    width: 150px;
+    outline: none;
+    background: linear-gradient(#2c3e50,#a661c7);
+
+}
+
+.tree-list > li > .btn-tree:hover {
+    outline: none;
+}
+
+.tree-list > li > .btn-tree:focus {
+    box-shadow: 0 0 0 transparent;
+    outline: none;
+
+}
+
