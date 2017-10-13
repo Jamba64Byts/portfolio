@@ -218,4 +218,10 @@ nav  .primary-list  li {
 }
 
 
+nav  .second-list  .btn-class-3 {
+    display: none;
+}
 
+nav  .second-list  .btn-class-4 {
+    display: none;
+}
