@@ -77,7 +77,6 @@ nav  .primary-list  li {
 #footer {
     background: linear-gradient(#9b59b6, #2c3e50) no-repeat;
     height: 70px;
-    margin-top: 200px;
 }
 
 #footer  footer  h2 {
@@ -152,9 +151,18 @@ nav  .primary-list  li {
 
 }
 
-.title-capacitacao{
-    margin-top: 100px;
+#title-cap div{
+    background-color: #2c3e50;
+    margin-top: 50px;
+    height: 100px;
 }
+
+#title-cap div h2{
+   color: white;
+    margin-top: 25px;
+
+}
+
 #content-1 > div > div {
     height: 448px;
     word-wrap: break-word;
@@ -162,6 +170,8 @@ nav  .primary-list  li {
     background: rgba(171, 171, 180, 0.14);
 
 }
+
+
 
 #content-1  div  div h4  a{
     color: #b61000;
@@ -224,4 +234,14 @@ nav  .second-list  .btn-class-3 {
 
 nav  .second-list  .btn-class-4 {
     display: none;
+}
+
+
+/* Ext pag*/
+
+.content-layout div div img{
+    width: 1002px;
+    height: 616px;
+    border: solid 1px #222222;
+
 }
