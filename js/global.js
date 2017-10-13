@@ -28,6 +28,7 @@ $(function () {
         static = static + 1;
         console.log(static);
         if (static === 1) {
+            // $('.down').show();
             $('nav  .second-list  .btn-class-1').css('display','none');
             $('nav  .second-list  .btn-class-2').css('display','none');
             $('nav  .second-list  .btn-class-3').css('display','inline');
@@ -35,6 +36,7 @@ $(function () {
 
         } else if (static === 2) {
             static = 0;
+            // $('.down').hide();
             $('nav  .second-list  .btn-class-1').css('display','inline');
             $('nav  .second-list  .btn-class-2').css('display','inline');
             $('nav  .second-list  .btn-class-3').css('display','none');
