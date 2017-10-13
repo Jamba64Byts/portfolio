@@ -205,7 +205,7 @@ nav  .primary-list  li {
         height: 200px;
         margin-top:  62px;
         margin-left: -8px;
-        border: inset 5px rgba(37, 97, 144, 0.41);
+        border: inset 5px #a661c7;
     }
 
     #content-1 > div > div {
