@@ -2,6 +2,10 @@ $(function () {
     $('[data-toggle="popover"]').popover('enable');
 });
 
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+})
+
 var static = 0;
 
 //Dev Naelson
