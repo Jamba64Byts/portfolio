@@ -271,12 +271,20 @@ nav  .second-list  .btn-class-4 {
 /* Ext pag*/
 
 .content-layout div div img{
-    width: 1002px;
+    width: 990px;
     height: 616px;
     border: solid 1px #222222;
 
 }
 
+@media (min-width: 266px) and (max-width: 900px){
+    .content-layout div div img{
+    width: 800px;
+    height: 600px;
+    border: solid 1px #222222;
+
+}
+}
 
 .t-tooltip{
     position: inherit;
