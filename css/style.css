@@ -154,13 +154,12 @@ nav  .primary-list  li {
 #title-cap div{
     background-color: #27ae60;
     margin-top: 50px;
-    height: 100px;
+    height: 80px;
 }
 
 #title-cap div h2{
    color: white;
     margin-top: 25px;
-
 }
 
 #content-1 > div > div {
@@ -197,7 +196,7 @@ nav  .primary-list  li {
     height: 250px;
     margin-top:  62px;
     margin-left: -8px;
-    border: inset 5px #a661c7;
+    border: solid 5px rgba(174, 174, 174, 0.46);
     opacity: 1;
 }
 
@@ -210,12 +209,13 @@ nav  .primary-list  li {
     margin-top: 100px;
 }
 @media (min-width: 266px) and (max-width: 500px){
-    .certificate:hover{
-        width: 260px;
-        height: 200px;
+    .certificate{
+        width: 345px;
+        height: 250px;
         margin-top:  62px;
         margin-left: -8px;
-        border: inset 5px #a661c7;
+        border: solid 5px rgba(174, 174, 174, 0.46);
+        opacity: 1;
     }
 
     #content-1 > div > div {
@@ -262,4 +262,41 @@ nav  .second-list  .btn-class-4 {
     .t-tooltip{
      display: none;
     }
+}
+
+#photo-profile{
+    margin-top: 100px;
+}
+
+#photo-profile div{
+    text-align: center;
+    background: #ebf1f5;
+}
+
+#photo-profile div ul li{
+    list-style: none;
+
+}
+
+#photo-profile div ul li strong{
+    color: #2980b9;
+}
+
+#photo-profile div img{
+    width: 200px;
+    height: 200px;
+    border: solid 5px white;
+    border-radius: 50%;
+}
+
+#skill div {
+    background: white;
+
+}
+
+
+
+
+#skill div ul li {
+    list-style: none;
 }
