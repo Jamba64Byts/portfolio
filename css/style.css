@@ -8,8 +8,14 @@ body{
 }
 
 div  #nav-top {
-    background: linear-gradient(#9b59b6, #2c3e50) no-repeat;
-    height: 40px
+    background: linear-gradient(#2980b9, #2c3e50) no-repeat;
+    height: 100px;
+}
+
+nav  .primary-list{
+    margin-top: 25px;
+
+
 }
 
 nav  .primary-list  li {
@@ -17,6 +23,7 @@ nav  .primary-list  li {
     list-style: none;
     display: inline;
     width: 100%;
+
 
 }
 
@@ -61,7 +68,7 @@ nav  .primary-list  li {
 .btn-nav:hover {
     color: white;
     border: none;
-    background: linear-gradient(rgb(142, 68, 173), rgba(189, 195, 199, 0.05));
+    background: linear-gradient(#2980b9, rgba(189, 195, 199, 0.05));
     opacity: 0.9;
     box-shadow: 0 5px 4px #2c3e50;
     outline: none;
@@ -75,8 +82,9 @@ nav  .primary-list  li {
 
 /* footer */
 #footer {
-    background: linear-gradient(#9b59b6, #2c3e50) no-repeat;
+    background: linear-gradient(#2980b9, #2c3e50) no-repeat;
     height: 70px;
+    margin-top: 10px;
 }
 
 #footer  footer  h2 {
@@ -152,7 +160,7 @@ nav  .primary-list  li {
 }
 
 #title-cap div{
-    background-color: #27ae60;
+    background: linear-gradient(#34495e,#2c3e50);
     margin-top: 50px;
     height: 80px;
 }
@@ -161,6 +169,7 @@ nav  .primary-list  li {
    color: white;
     margin-top: 25px;
 }
+
 
 #content-1 > div > div {
     height: 448px;
@@ -173,12 +182,17 @@ nav  .primary-list  li {
 
 
 #content-1  div  div h4  a{
-    color: #b61000;
+     color: #2980b9;
+
+ }
+
+#content-1  div  div h4 strong{
+    color: #c0c0c0;
 
 }
 
 #content-1  div  div h4  a:hover{
-    color: #c0392b;
+    color: #3498db;
 
 }
 
@@ -210,20 +224,31 @@ nav  .primary-list  li {
 }
 @media (min-width: 266px) and (max-width: 500px){
     .certificate{
-        width: 345px;
-        height: 250px;
+        width: 260px;
+        height: 200px;
         margin-top:  62px;
         margin-left: -8px;
         border: solid 5px rgba(174, 174, 174, 0.46);
         opacity: 1;
     }
 
+    .certificate:hover{
+        width: 270px;
+        height: 210px;
+
+    }
     #content-1 > div > div {
         height: 300px;
         word-wrap: break-word;
         overflow: hidden;
         background-color: #fcfcfc;
 
+
+    }
+
+    #title-cap div h2{
+        color: white;
+        margin-top: 5px;
     }
 }
 
