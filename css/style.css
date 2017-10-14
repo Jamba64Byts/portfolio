@@ -266,6 +266,21 @@ nav  .second-list  .btn-class-4 {
        display: none;
 
     }
+
+    #skill div table thead tr th{
+        font-size: 14px;
+    }
+
+    #skill div table tbody tr td div div{
+        font-size: 10px;
+    }
+   .contact strong {
+       font-size: 20px;
+   }
+
+    h3.contact{
+        font-size: 14px;
+    }
 }
 
 /* Ext pag*/
