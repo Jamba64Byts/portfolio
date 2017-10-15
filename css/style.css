@@ -267,13 +267,6 @@ nav  .second-list  .btn-class-4 {
 
     }
 
-    #skill div table thead tr th{
-        font-size: 14px;
-    }
-
-    #skill div table tbody tr td div div{
-        font-size: 10px;
-    }
    .contact strong {
        font-size: 20px;
    }
@@ -310,6 +303,7 @@ nav  .second-list  .btn-class-4 {
     .t-tooltip{
      display: none;
     }
+
 }
 
 #photo-profile{
@@ -341,11 +335,20 @@ nav  .second-list  .btn-class-4 {
 #skill div {
     background: white;
 
+
 }
 
 
+#skill div ol li{
+   list-style: none;
 
 
-#skill div ul li {
-    list-style: none;
+
+}
+
+
+#skill div ol li div{
+
+  background-color: #eae8e9;
+
 }
