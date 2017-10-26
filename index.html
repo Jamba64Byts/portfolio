@@ -20,6 +20,71 @@
 
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/global.js"></script>
+    <style type="text/css">
+                             /* Fundo */
+                            .Bg-Box-primary{
+                                position: fixed;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background-color: rgba(0, 0, 0, 0.35);
+                                display: none;
+                            }
+                             /* Bloco em cima do fundo */
+                             /* Responsivo use porcentagem, lembrando tem uma class no bootstrap para deixa img reponsive */
+                             .Bg-Box-second{
+                                 width: 50%;
+                                 height: 70%;
+                                 position: fixed;
+                                 left: 30%;
+                                 top: 10%;
+                                 border: solid rgba(120, 120, 120, 0.3) 10px;
+                                 background-color: white;
+                                 display: none;
+
+                             }
+                             @media (max-width: 500px) and (min-width: 266px){
+                                 .Bg-Box-second{
+                                     width: 100%;
+                                     height: 50%;
+                                     top: 13%;
+                                     left: 0;
+                                 }
+                             }
+                              /* Dar position absolute para colocar em qualquer lugar da tela */
+                              /* Em seguida um bottom 0 , left 0 right 0 or top 0 */
+                              .close{
+                                  position: absolute;
+                                  bottom: 0; /* Envia para baixo */
+                                  right: 0; /* Envia para a direita encostando na parede */
+                                  /* Retornar um pouco para desgrudar da parece*/
+                                  margin-right: 5px;
+
+                              }
+
+    </style>
+    <script type="text/javascript">
+                              $(function () {
+                                 $('.close').on('click',function () {
+                                     $('.Bg-Box-primary').hide();
+                                     $('.Bg-Box-second').hide();
+                                 });
+
+                                  $('.certificate').bind('click',function () {
+                                      // - var img = $(this).find('img').attr('src'); //Removido
+                                     // Fixed + var img = $('.certificate').attr('src'); //Corrigido
+                                      var img = $('.certificate').attr('src'); //
+                                      $('.Bg-Box-primary').show();
+                                      $('.Bg-Box-second').show();
+                                      $('.Bg-Box-second img').attr('src',img).width('100%').height('100%');
+                                  });
+
+                              });
+
+
+    </script>
+
 </head>
 <body>
 
@@ -118,6 +183,16 @@
                 <img class="certificate" src="" alt="Concluindo...">
             </div>
 
+        </div>
+
+        <div class="Bg-Box-primary">
+
+        </div>
+
+        <div class="Bg-Box-second">
+
+            <img src="" alt="Img">
+            <button type="button" class="close">Fechar</button>
         </div>
 
         <article class="text-custom">

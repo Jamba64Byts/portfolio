@@ -203,6 +203,7 @@ nav  .primary-list  li {
   border-radius: 5px;
   transition: 1s;
   opacity: 0.7;
+    
 }
 
 .certificate:hover{
@@ -212,6 +213,7 @@ nav  .primary-list  li {
     margin-left: -8px;
     border: solid 5px rgba(174, 174, 174, 0.46);
     opacity: 1;
+    cursor: pointer;
 }
 
 .title-curse{
