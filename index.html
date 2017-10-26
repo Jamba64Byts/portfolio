@@ -73,8 +73,8 @@
 
                                   $('.certificate').bind('click',function () {
                                       // - var img = $(this).find('img').attr('src'); //Removido
-                                     // Fixed + var img = $('.certificate').attr('src'); //Corrigido
-                                      var img = $('.certificate').attr('src'); //
+                                     // Fixed + var img = $(this).attr('src'); //Corrigido
+                                      var img = $(this).attr('src'); //
                                       $('.Bg-Box-primary').show();
                                       $('.Bg-Box-second').show();
                                       $('.Bg-Box-second img').attr('src',img).width('100%').height('100%');
@@ -158,7 +158,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <h4 class="title-curse">B7 Web&ensp;<strong>Site:<a href="http://phpdozeroaoprofissional.com.br/completo/?ref=A4531601E&hsrc=TmVlbWlhcw%3D%3D">Link</a></strong></h4>
-                <img class="certificate" src="img/certificado_3748.jpg">
+                <a href="" onclick="return false"><img class="certificate" src="img/certificado_3748.jpg"></a>
             </div>
             <div class="col-12 col-md-4">
                 <h4 class="title-curse">B7 Web&ensp;<strong>Site:<a href="https://br.code.org/">Link</a></strong></h4>
