@@ -308,11 +308,12 @@ nav  .second-list  .btn-class-4 {
 
 #photo-profile{
     margin-top: 100px;
+
 }
 
 #photo-profile div{
-    text-align: center;
-    background: #ebf1f5;
+    position: relative;
+    left: 0;
 }
 
 #photo-profile div ul li{
@@ -327,8 +328,9 @@ nav  .second-list  .btn-class-4 {
 #photo-profile div img{
     width: 200px;
     height: 200px;
-    border: solid 5px white;
+    border: solid 5px rgba(150, 150, 150, 0.25);
     border-radius: 50%;
+    margin-left: 35px;
 }
 
 #skill div {
