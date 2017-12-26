@@ -1,0 +1,50 @@
+$(function () {
+    $('.galeria').bind('click', function () {
+        var img = $(this).find('img').attr('src'); //Pegando atributo
+        //Enviando uma log para certificamos que estamos recebendo o conteudo do atributo
+        console.log(img);
+        $('.BgBox-Second img').attr('src', img).css('width', '100%').css('height', '100%');
+        $('.BgBox-Primary').show();
+        $('.BgBox-Second').show();
+    });
+
+    $('.close').on('click', function () {
+        $('.BgBox-Primary').hide();
+        $('.BgBox-Second').hide();
+
+    });
+    /*
+            $('.certificate').on('click',function () {
+                var img = $(this).attr('src');
+                console.log(img);
+            });*/
+});
+
+
+// c4
+
+$(function () {
+    $('.galeria').bind('click', function () {
+        var img = $(this).find('img').attr('src'); //Pegando atributo
+        //Enviando uma log para certificamos que estamos recebendo o conteudo do atributo
+        console.log(img);
+        $('.BgBox-Second-scr img').attr('src', img).css('width', '100%').css('height', '100%');
+        $('.BgBox-Primary-scr').show();
+        $('.BgBox-Second-scr').show();
+    });
+
+    $('.close').on('click', function () {
+        $('.BgBox-Primary-scr').hide();
+        $('.BgBox-Second-scr').hide();
+
+    });
+    /*
+    $('.certificate').on('click',function () {
+        var img = $(this).attr('src');
+        console.log(img);
+    });*/
+});
+
+
+
+// Protection-send framework

@@ -1,0 +1,67 @@
+body{
+    font-family: Arial,sans-serif;
+    height: 700px;
+    background-color: #e8e1e1;
+}
+
+@font-face {
+    font-family: font-custom;
+    src: url(../fonts/Cinzel-Regular.otf);
+}
+
+.bg-logo{
+
+    background-color: #1e1e1e;
+    height: 150px;
+
+}
+
+
+#logo{
+   font-size: 72px;
+}
+
+@media (min-width: 266px) and (max-width: 500px) {
+    #logo{
+        font-size: 36px;
+    }
+
+}
+
+#logo{
+    margin-top: -100px;
+}
+
+#credit{
+    margin-top: -100px;
+}
+.btn-nav{
+
+}
+.btn-nav:focus{
+
+    box-shadow: none;
+
+}
+
+.btn-exit{
+    position: fixed;
+    right: 0;
+
+}
+.btn-exit:hover{
+    border-bottom: solid  2px #2b2b2b;
+}
+
+.separator1{
+    width: 100%;
+    background-color: #e9e9ea;
+    height: 1px;
+}
+
+.separator2{
+    width: 100%;
+    background-color: #dcd7d7;
+    height: 1px;
+}
+
