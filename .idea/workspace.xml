@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9a88229-33bf-4299-898e-c689750a38f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExtPage/avenger.html" afterPath="$PROJECT_DIR$/ExtPage/avenger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExtPage/darkgreen.html" afterPath="$PROJECT_DIR$/ExtPage/darkgreen.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about.html">
+      <file leaf-file-name="darkgreen.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExtPage/darkgreen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="36" column="71" lean-forward="false" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+            <state relative-caret-position="342">
+              <caret line="64" column="109" lean-forward="false" selection-start-line="64" selection-start-column="109" selection-end-line="64" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -32,6 +33,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/ExtPage/avenger.html" />
+        <option value="$PROJECT_DIR$/ExtPage/darkgreen.html" />
       </list>
     </option>
   </component>
@@ -42,7 +45,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="width" value="1364" />
     <option name="height" value="729" />
@@ -68,6 +71,11 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ExtPage" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -102,15 +110,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514327479143</updated>
-      <workItem from="1514327482609" duration="30000" />
+      <workItem from="1514327482609" duration="738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30000" />
+    <option name="totallyTimeSpent" value="738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1364" height="729" extended-state="1" />
+    <frame x="-1" y="0" width="1364" height="729" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -147,6 +155,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="36" column="71" lean-forward="false" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+          <folding>
+            <marker date="1514323175536" expanded="false" signature="3179:3195" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="3320:3336" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="3445:3461" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="3573:3589" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="3701:3717" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="3952:3969" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="4150:4160" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="4246:4252" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="4430:4440" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="4526:4532" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="4711:4721" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="4807:4813" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="4993:5003" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="5089:5095" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="5273:5283" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="5369:5375" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="5557:5567" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="5653:5659" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="5838:5848" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="5934:5940" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="6119:6129" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="6215:6221" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="6405:6415" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="6501:6507" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="6690:6700" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="6786:6792" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="6977:6987" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="7073:7079" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="7254:7264" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="7350:7356" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="7541:7551" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="7637:7643" ph=" " />
+            <marker date="1514323175536" expanded="false" signature="7825:7835" ph="..." />
+            <marker date="1514323175536" expanded="false" signature="7921:7927" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExtPage/avenger.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="64" column="71" lean-forward="true" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExtPage/forum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExtPage/darkgreen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="64" column="109" lean-forward="false" selection-start-line="64" selection-start-column="109" selection-end-line="64" selection-end-column="109" />
           <folding />
         </state>
       </provider>
